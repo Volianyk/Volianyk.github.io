@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bike HTML</title>
+</head>
+
+<body>
+<header>
+    <h1>Bicycle Renting </h1> 
+</header>
+<main>
+    <img src="bike.jpg" alt="Bicycle" width="450" height="200">
+    <p><b>About us.</b><br>We are located right on the cycle path, in the historic center in front of the Dnipro river.<br> Rent a bike  with us. We have all kind of bike for rent: city, trekking, mountain , child (all sizes) and Tandem (for 2 persons). We have the best relation between good quality bikes and one cheap price with the best service. The accessories are included for free: helmets, locks, lights, baby seats, maps, assistance service.</p>
+    <p><b>You can <u>choose</u> the best one:</b></p>
+    <ul>
+        <li><i>Road Bike</i></li> 
+        <li><i>Mountain Bike</i></li>
+        <li><i>Fixed Gear/ Track Bike.</i></li>
+        <li><i>Touring Bike</i></li>
+        <li><i>BMX</i></li>
+    </ul>
+    <a href="https://www.vieguini.pt/rent-bike-porto" target="_blank">Bicycle delivery!</a>
+    <p>The best price for the bike <del><span style="color:rgb(226, 19, 154)">7$</span></del> <b><span style="color: rgb(226, 53, 22)">5$</span></b>!</p>
+    <p>Please choose bike:</p>
+    <form>
+        <input type="radio" id="Road Bike" name="food" value="Road Bike">
+        <label for="Road Bike">Road Bike</label><br>
+        <input type="radio" id="Mountain Bike" name="food" value="Mountain Bike">
+        <label for="Mountain Bike">Mountain Bike</label><br><br>
+        <input type="button" onclick="alert('Success')" value="Take it">
+    </form>
+    <address>
+        Written by <a href="bikerent@example.com">Manager Robert</a>.<br>
+        Visit us at: Sicheslavska Naberezhna street, 35B, Dnipro, Dnipropetrovsk region<br>
+        bikerent.com<br>
+        Box 564, Dnipro<br>
+        Ukraine
+        </address>
+</main>
+</body>
+
+</html>
